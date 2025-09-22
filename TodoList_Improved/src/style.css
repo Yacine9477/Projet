@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* header */
+
+header {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 7rem;
+}
+
+/* content list */
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15rem;
+}
+
+/* add */
+
+.add {
+  text-align: center;
+}
+
+/* ToDo */
+
+.fa-list {
+  padding-right: 0.5rem;
+}
+
+ul {
+  padding-left: 0rem;
+}
+
+ul li {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.rectangle {
+  box-sizing: border-box;
+  border: solid 3px #111;
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle:hover .barre1 {
+  position: absolute;
+  background: #111;
+  width: 16px;
+  height: 1.5px;
+  rotate: 45deg;
+}
+
+.rectangle:hover .barre2 {
+  position: absolute;
+  background: #111;
+  width: 16px;
+  height: 1.5px;
+  rotate: -45deg;
+}
